@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: prune-test
-  namespace: git-argo
-data:
-  message: "Testing Argo CD pruning"
