@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-gitops
-  namespace: argocd-demo
+  namespace: git-argo
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-gitops
